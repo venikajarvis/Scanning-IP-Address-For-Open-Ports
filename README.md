@@ -1,8 +1,14 @@
 <h1>Scanning-Open-Ports</h1>
 
 <h2>Description</h2>
-I created a script to scan my IP address for open ports. Python was the programming language used.
-<br />
+
+- <b>Simple CLI port scanner (Python) — imports: sys, socket, datetime, threading.<b>
+
+- Reusable scan_port(target, port) function with exception handling, socket timeouts, and banner parsing.
+
+- Hostname → IPv4 resolution, argument validation, and clear usage/error messages.
+
+- Concurrent port scanning using threading with proper thread lifecycle management (start + join) and graceful interrupt handling.<br />
 
 
 <h2>Language Used</h2>
