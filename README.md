@@ -2,22 +2,22 @@
 
 <h2>Description</h2>
 
-- <b>Simple CLI port scanner (Python) — imports: sys, socket, datetime, threading.<b>
+- Simple CLI port scanner (Python) — imports: sys, socket, datetime, threading.
 
 - Reusable scan_port(target, port) function with exception handling, socket timeouts, and banner parsing.
 
 - Hostname → IPv4 resolution, argument validation, and clear usage/error messages.
 
-- Concurrent port scanning using threading with proper thread lifecycle management (start + join) and graceful interrupt handling.<br />
+- Concurrent port scanning using threading with proper thread lifecycle management (start + join) and graceful interrupt handling.
 
 
 <h2>Language Used</h2>
 
-- <b>Python</b> 
+- Python
 
 <h2>Environment Used </h2>
 
-- <b>Local machine (macOS)</b>
+- Local machine (macOS)
 
 <!--
  ```diff
